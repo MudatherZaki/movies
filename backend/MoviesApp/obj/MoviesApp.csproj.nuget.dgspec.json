@@ -1,0 +1,291 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\MoviesApp\\MoviesApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\Movies.Core\\Movies.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\Movies.Core\\Movies.Core.csproj",
+        "projectName": "Movies.Core",
+        "projectPath": "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\Movies.Core\\Movies.Core.csproj",
+        "packagesPath": "C:\\Users\\Mudather\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\Movies.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mudather\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\Movies.Domain\\Movies.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\Movies.Domain\\Movies.Domain.csproj",
+        "projectName": "Movies.Domain",
+        "projectPath": "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\Movies.Domain\\Movies.Domain.csproj",
+        "packagesPath": "C:\\Users\\Mudather\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\Movies.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mudather\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\Movies.Core\\Movies.Core.csproj": {
+                "projectPath": "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\Movies.Core\\Movies.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\Movies.Presistence\\Movies.Presistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\Movies.Presistence\\Movies.Presistence.csproj",
+        "projectName": "Movies.Presistence",
+        "projectPath": "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\Movies.Presistence\\Movies.Presistence.csproj",
+        "packagesPath": "C:\\Users\\Mudather\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\Movies.Presistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mudather\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\Movies.Core\\Movies.Core.csproj": {
+                "projectPath": "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\Movies.Core\\Movies.Core.csproj"
+              },
+              "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\Movies.Domain\\Movies.Domain.csproj": {
+                "projectPath": "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\Movies.Domain\\Movies.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\MoviesApp\\MoviesApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\MoviesApp\\MoviesApp.csproj",
+        "projectName": "MoviesApp",
+        "projectPath": "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\MoviesApp\\MoviesApp.csproj",
+        "packagesPath": "C:\\Users\\Mudather\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\MoviesApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Mudather\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\Movies.Core\\Movies.Core.csproj": {
+                "projectPath": "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\Movies.Core\\Movies.Core.csproj"
+              },
+              "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\Movies.Presistence\\Movies.Presistence.csproj": {
+                "projectPath": "C:\\Users\\Mudather\\source\\repos\\MoviesApp\\Movies.Presistence\\Movies.Presistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\Mudather\source\repos\MoviesApp\Movies.Core\bin\Debug\net5.0\Movies.Core.deps.json
+C:\Users\Mudather\source\repos\MoviesApp\Movies.Core\bin\Debug\net5.0\Movies.Core.dll
+C:\Users\Mudather\source\repos\MoviesApp\Movies.Core\bin\Debug\net5.0\ref\Movies.Core.dll
+C:\Users\Mudather\source\repos\MoviesApp\Movies.Core\bin\Debug\net5.0\Movies.Core.pdb
+C:\Users\Mudather\source\repos\MoviesApp\Movies.Core\obj\Debug\net5.0\Movies.Core.csproj.AssemblyReference.cache
+C:\Users\Mudather\source\repos\MoviesApp\Movies.Core\obj\Debug\net5.0\Movies.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mudather\source\repos\MoviesApp\Movies.Core\obj\Debug\net5.0\Movies.Core.AssemblyInfoInputs.cache
+C:\Users\Mudather\source\repos\MoviesApp\Movies.Core\obj\Debug\net5.0\Movies.Core.AssemblyInfo.cs
+C:\Users\Mudather\source\repos\MoviesApp\Movies.Core\obj\Debug\net5.0\Movies.Core.csproj.CoreCompileInputs.cache
+C:\Users\Mudather\source\repos\MoviesApp\Movies.Core\obj\Debug\net5.0\Movies.Core.dll
+C:\Users\Mudather\source\repos\MoviesApp\Movies.Core\obj\Debug\net5.0\ref\Movies.Core.dll
+C:\Users\Mudather\source\repos\MoviesApp\Movies.Core\obj\Debug\net5.0\Movies.Core.pdb
